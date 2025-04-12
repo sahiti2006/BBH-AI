@@ -5,7 +5,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url(image.png);
-  background-attachment: fixed; /* Keeps the background fixed during scroll */
+  background-attachment: fixed; 
 }
 
 h2 {
@@ -43,7 +43,7 @@ section {
 
 }
 
-/* If you want to add an image inside the section, use this in your HTML */
+
 div img {
   width: 50px;
   height: 60px;
@@ -83,7 +83,7 @@ li{
   font-size: 2px;
 }
 main {
-  flex: 1; /* This makes the main content expand and push the footer down */
+  flex: 1; 
   text-align: center;
   padding: 20px;
 }
